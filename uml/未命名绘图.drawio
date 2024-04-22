@@ -1,9 +1,36 @@
-<mxfile host="app.diagrams.net" modified="2024-04-22T12:15:50.884Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="24.2.7" etag="Ot2k-IwqreKU6hRLawB0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-22T12:36:45.654Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="utZtoZb6g5nGFHR4muCB" version="24.2.7" type="github">
   <diagram name="第 1 页" id="HXdQnF7FJ02nopvilhx5">
-    <mxGraphModel>
+    <mxGraphModel dx="2074" dy="1146" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1390" pageHeight="980" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="tqG4-ptpqv0__adzJizx-1" value="优化二维码扫码效果" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tqG4-ptpqv0__adzJizx-2" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;需求背景&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="260" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tqG4-ptpqv0__adzJizx-4" value="目前平台扫码存在多次调用抖音二维码接口的情况，导致无法获取登录态，无法抓取数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="240" width="120" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="tqG4-ptpqv0__adzJizx-5" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;成果&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="590" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tqG4-ptpqv0__adzJizx-6" value="交互流程优化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="485" y="240" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tqG4-ptpqv0__adzJizx-7" value="用户体验优化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="605" y="240" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tqG4-ptpqv0__adzJizx-8" value="请求逻辑优化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="725" y="240" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tqG4-ptpqv0__adzJizx-9" value="接口调用失败超过两次，抖音二维码弹窗允许关闭" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="350" width="55" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="tqG4-ptpqv0__adzJizx-10" value="接口调用失败超过两次，抖音二维码弹窗允许关闭" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="350" width="55" height="200" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
