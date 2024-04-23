@@ -1,35 +1,71 @@
-<mxfile host="app.diagrams.net" modified="2024-04-22T12:36:45.654Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="utZtoZb6g5nGFHR4muCB" version="24.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-23T06:23:31.046Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="hzp5gkuY6nWRKdvVCQnI" version="24.2.7" type="github">
   <diagram name="第 1 页" id="HXdQnF7FJ02nopvilhx5">
     <mxGraphModel dx="2074" dy="1146" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1390" pageHeight="980" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="tqG4-ptpqv0__adzJizx-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tqG4-ptpqv0__adzJizx-1" target="tqG4-ptpqv0__adzJizx-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tqG4-ptpqv0__adzJizx-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="tqG4-ptpqv0__adzJizx-1" target="tqG4-ptpqv0__adzJizx-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="tqG4-ptpqv0__adzJizx-1" value="优化二维码扫码效果" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="40" width="120" height="60" as="geometry" />
+          <mxGeometry x="420" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tqG4-ptpqv0__adzJizx-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tqG4-ptpqv0__adzJizx-2" target="tqG4-ptpqv0__adzJizx-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tqG4-ptpqv0__adzJizx-2" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;需求背景&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="260" y="140" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tqG4-ptpqv0__adzJizx-4" value="目前平台扫码存在多次调用抖音二维码接口的情况，导致无法获取登录态，无法抓取数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="240" width="120" height="200" as="geometry" />
+          <mxGeometry x="260" y="240" width="120" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="tqG4-ptpqv0__adzJizx-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tqG4-ptpqv0__adzJizx-5" target="tqG4-ptpqv0__adzJizx-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tqG4-ptpqv0__adzJizx-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tqG4-ptpqv0__adzJizx-5" target="tqG4-ptpqv0__adzJizx-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tqG4-ptpqv0__adzJizx-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tqG4-ptpqv0__adzJizx-5" target="tqG4-ptpqv0__adzJizx-8">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tqG4-ptpqv0__adzJizx-5" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;成果&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="590" y="140" width="120" height="60" as="geometry" />
+          <mxGeometry x="580" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tqG4-ptpqv0__adzJizx-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tqG4-ptpqv0__adzJizx-6" target="tqG4-ptpqv0__adzJizx-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tqG4-ptpqv0__adzJizx-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tqG4-ptpqv0__adzJizx-6" target="tqG4-ptpqv0__adzJizx-10">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tqG4-ptpqv0__adzJizx-6" value="交互流程优化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="485" y="240" width="90" height="70" as="geometry" />
+          <mxGeometry x="475" y="240" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tqG4-ptpqv0__adzJizx-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tqG4-ptpqv0__adzJizx-7" target="tqG4-ptpqv0__adzJizx-11">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tqG4-ptpqv0__adzJizx-7" value="用户体验优化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="605" y="240" width="90" height="70" as="geometry" />
+          <mxGeometry x="595" y="240" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tqG4-ptpqv0__adzJizx-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tqG4-ptpqv0__adzJizx-8" target="tqG4-ptpqv0__adzJizx-12">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tqG4-ptpqv0__adzJizx-8" value="请求逻辑优化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="725" y="240" width="90" height="70" as="geometry" />
+          <mxGeometry x="715" y="240" width="90" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="tqG4-ptpqv0__adzJizx-9" value="接口调用失败超过两次，抖音二维码弹窗允许关闭" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="470" y="350" width="55" height="200" as="geometry" />
+        <mxCell id="tqG4-ptpqv0__adzJizx-9" value="接口返回失败时，在页面上提示用户，让用户手动点击刷新二维码" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="350" width="55" height="200" as="geometry" />
         </mxCell>
         <mxCell id="tqG4-ptpqv0__adzJizx-10" value="接口调用失败超过两次，抖音二维码弹窗允许关闭" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="550" y="350" width="55" height="200" as="geometry" />
+          <mxGeometry x="530" y="350" width="55" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="tqG4-ptpqv0__adzJizx-11" value="用户点击刷新按钮时，在接口返回前，无法再次点击刷新按钮，避免出现多次刷新二维码的情况" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="612.5" y="350" width="55" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="tqG4-ptpqv0__adzJizx-12" value="原先逻辑会在接口调用失败时，重新发起请求，如果服务器真的挂了，会一直发请求，造成页面卡顿" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="732.5" y="350" width="55" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
