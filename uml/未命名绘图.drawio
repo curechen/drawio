@@ -1,71 +1,112 @@
-<mxfile host="app.diagrams.net" modified="2024-04-23T06:24:23.022Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="MMC6TCbDLvOiNpYT_rom" version="24.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-10T12:48:00.724Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="qdY3FBEI2MBccCfmMPI7" version="24.2.7" type="github">
   <diagram name="第 1 页" id="HXdQnF7FJ02nopvilhx5">
     <mxGraphModel dx="2074" dy="1146" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1390" pageHeight="980" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="tqG4-ptpqv0__adzJizx-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tqG4-ptpqv0__adzJizx-1" target="tqG4-ptpqv0__adzJizx-2">
+        <mxCell id="tqG4-ptpqv0__adzJizx-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="tqG4-ptpqv0__adzJizx-1" target="tqG4-ptpqv0__adzJizx-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tqG4-ptpqv0__adzJizx-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="tqG4-ptpqv0__adzJizx-1" target="tqG4-ptpqv0__adzJizx-5">
+        <mxCell id="tqG4-ptpqv0__adzJizx-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="tqG4-ptpqv0__adzJizx-1" target="tqG4-ptpqv0__adzJizx-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tqG4-ptpqv0__adzJizx-1" value="优化二维码扫码效果" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="420" y="40" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="tqG4-ptpqv0__adzJizx-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tqG4-ptpqv0__adzJizx-2" target="tqG4-ptpqv0__adzJizx-4">
+        <mxCell id="Z_a1wRSLORf3l0CzjbAw-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tqG4-ptpqv0__adzJizx-1" target="Z_a1wRSLORf3l0CzjbAw-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tqG4-ptpqv0__adzJizx-2" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;需求背景&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="260" y="140" width="120" height="60" as="geometry" />
+        <mxCell id="tqG4-ptpqv0__adzJizx-1" value="优化二维码扫码效果，提高运营同学使用效率" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="535" y="40" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tqG4-ptpqv0__adzJizx-4" value="目前平台扫码存在多次调用抖音二维码接口的情况，导致无法获取登录态，无法抓取数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="240" width="120" height="310" as="geometry" />
-        </mxCell>
-        <mxCell id="tqG4-ptpqv0__adzJizx-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tqG4-ptpqv0__adzJizx-5" target="tqG4-ptpqv0__adzJizx-6">
+        <mxCell id="tqG4-ptpqv0__adzJizx-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="tqG4-ptpqv0__adzJizx-2" target="tqG4-ptpqv0__adzJizx-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tqG4-ptpqv0__adzJizx-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tqG4-ptpqv0__adzJizx-5" target="tqG4-ptpqv0__adzJizx-7">
+        <mxCell id="tqG4-ptpqv0__adzJizx-2" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;背景：当前平台看数的交互流程存在问题，影响运营同学查询数据&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="180" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tqG4-ptpqv0__adzJizx-4" value="平台看数据需要同时登录小红书/抖音，而抖音测获取二维码接口是有风控的，频繁调用会导致一段时间无法获取到最新的登录二维码，影响登录" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="180" y="240" width="120" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="tqG4-ptpqv0__adzJizx-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="tqG4-ptpqv0__adzJizx-5" target="tqG4-ptpqv0__adzJizx-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tqG4-ptpqv0__adzJizx-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tqG4-ptpqv0__adzJizx-5" target="tqG4-ptpqv0__adzJizx-8">
+        <mxCell id="tqG4-ptpqv0__adzJizx-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="tqG4-ptpqv0__adzJizx-5" target="tqG4-ptpqv0__adzJizx-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tqG4-ptpqv0__adzJizx-5" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;成果&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="580" y="140" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="tqG4-ptpqv0__adzJizx-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tqG4-ptpqv0__adzJizx-6" target="tqG4-ptpqv0__adzJizx-9">
+        <mxCell id="tqG4-ptpqv0__adzJizx-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="tqG4-ptpqv0__adzJizx-5" target="tqG4-ptpqv0__adzJizx-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tqG4-ptpqv0__adzJizx-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tqG4-ptpqv0__adzJizx-6" target="tqG4-ptpqv0__adzJizx-10">
+        <mxCell id="tqG4-ptpqv0__adzJizx-5" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;成果：解决存在的问题，对流程和逻辑进行优化，使得登录流程和体验得到提升&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="902.5" y="140" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tqG4-ptpqv0__adzJizx-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="tqG4-ptpqv0__adzJizx-6" target="tqG4-ptpqv0__adzJizx-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tqG4-ptpqv0__adzJizx-6" value="交互流程优化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="475" y="240" width="90" height="70" as="geometry" />
+        <mxCell id="tqG4-ptpqv0__adzJizx-6" value="交互流程优化" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="810" y="240" width="90" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="tqG4-ptpqv0__adzJizx-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tqG4-ptpqv0__adzJizx-7" target="tqG4-ptpqv0__adzJizx-11">
+        <mxCell id="tqG4-ptpqv0__adzJizx-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="tqG4-ptpqv0__adzJizx-7" target="tqG4-ptpqv0__adzJizx-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tqG4-ptpqv0__adzJizx-7" value="用户体验优化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="595" y="240" width="90" height="70" as="geometry" />
+        <mxCell id="tqG4-ptpqv0__adzJizx-7" value="用户体验优化" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1042.5" y="240" width="90" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="tqG4-ptpqv0__adzJizx-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tqG4-ptpqv0__adzJizx-8" target="tqG4-ptpqv0__adzJizx-12">
+        <mxCell id="tqG4-ptpqv0__adzJizx-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="tqG4-ptpqv0__adzJizx-8" target="tqG4-ptpqv0__adzJizx-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tqG4-ptpqv0__adzJizx-8" value="请求逻辑优化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="715" y="240" width="90" height="70" as="geometry" />
+        <mxCell id="Z_a1wRSLORf3l0CzjbAw-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tqG4-ptpqv0__adzJizx-8" target="Z_a1wRSLORf3l0CzjbAw-18">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tqG4-ptpqv0__adzJizx-9" value="接口返回失败时，在页面上提示用户，让用户手动点击刷新二维码" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="460" y="350" width="55" height="200" as="geometry" />
+        <mxCell id="tqG4-ptpqv0__adzJizx-8" value="请求逻辑优化" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="927.5" y="240" width="90" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="tqG4-ptpqv0__adzJizx-10" value="接口调用失败超过两次，抖音二维码弹窗允许关闭" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="530" y="350" width="55" height="200" as="geometry" />
+        <mxCell id="tqG4-ptpqv0__adzJizx-10" value="接口调用失败超过两次，抖音二维码登录弹窗允许关闭，用户可以查看数据" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="827.5" y="350" width="55" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="tqG4-ptpqv0__adzJizx-11" value="用户点击刷新按钮时，在接口返回前，无法再次点击刷新按钮，避免出现多次刷新二维码的情况" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="612.5" y="350" width="55" height="200" as="geometry" />
+        <mxCell id="tqG4-ptpqv0__adzJizx-11" value="用户点击刷新按钮时，在接口返回前，无法再次点击刷新按钮，避免出现多次刷新二维码的情况" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1060" y="350" width="55" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="tqG4-ptpqv0__adzJizx-12" value="原先逻辑会在接口调用失败时，重新发起请求，如果服务器真的挂了，会一直发请求，造成页面卡顿" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="732.5" y="350" width="55" height="200" as="geometry" />
+        <mxCell id="tqG4-ptpqv0__adzJizx-12" value="删除递归请求逻辑，如果请求失败，二维码会置为失效状态，需要手动点击刷新，再请求接口" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="912.5" y="350" width="55" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Z_a1wRSLORf3l0CzjbAw-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z_a1wRSLORf3l0CzjbAw-4" target="Z_a1wRSLORf3l0CzjbAw-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z_a1wRSLORf3l0CzjbAw-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z_a1wRSLORf3l0CzjbAw-4" target="Z_a1wRSLORf3l0CzjbAw-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z_a1wRSLORf3l0CzjbAw-4" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;问题：基于问题的背景，重新梳理页面交互流程和请求逻辑，发现了若干问题需要解决&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="525" y="140" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z_a1wRSLORf3l0CzjbAw-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z_a1wRSLORf3l0CzjbAw-7" target="Z_a1wRSLORf3l0CzjbAw-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z_a1wRSLORf3l0CzjbAw-7" value="交互流程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="240" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Z_a1wRSLORf3l0CzjbAw-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="Z_a1wRSLORf3l0CzjbAw-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="595" y="310" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z_a1wRSLORf3l0CzjbAw-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z_a1wRSLORf3l0CzjbAw-11" target="Z_a1wRSLORf3l0CzjbAw-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z_a1wRSLORf3l0CzjbAw-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z_a1wRSLORf3l0CzjbAw-11" target="Z_a1wRSLORf3l0CzjbAw-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z_a1wRSLORf3l0CzjbAw-11" value="请求逻辑" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="240" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Z_a1wRSLORf3l0CzjbAw-13" value="基于运营同学需求，抖音的登录不是必须的，但是目前流程上要求必须登录抖音才能看数据，这是不合理的" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="350" width="70" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Z_a1wRSLORf3l0CzjbAw-15" value="接口请求失败时，会进行递归请求，在请求中重新调用自身方法，这会导致如果接口超时或者失败，会一直打接口，造成流量消耗和页面卡顿" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="547.5" y="350" width="107.5" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Z_a1wRSLORf3l0CzjbAw-16" value="为了避免二维码过期，原先逻辑设置了定时器，每两秒调用一次接口查询当前二维码状态，如果用户一直停留在登录页不登录，会导致很多不必要的重复请求，进而导致接口被风控，用户无法获取到最新登录二维码，无法登陆" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="350" width="110" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Z_a1wRSLORf3l0CzjbAw-18" value="降低定时器请求频次，当接口返回二维码失效时，在页面上提示用户，让用户手动点击刷新二维码" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="982.5" y="350" width="55" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
